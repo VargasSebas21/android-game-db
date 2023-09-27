@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".Juego">
+
+
+
+    <TextView
+        android:id="@+id/tvNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:useDefaultMargins="true"
+        android:layout_marginStart="50dp">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="1"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn1"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="2"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn2"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="3"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn3"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn4" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="5"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn5"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="6"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn6"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="7"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn7"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="8"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn8"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="9"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn9"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="10"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn10"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="11"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn11"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="12"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn12"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="13"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn13"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="14"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn14"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="15"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn15"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="16"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn16"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="17"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn17"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="18"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn18"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="19"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn19"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="20"
+            android:backgroundTint="@color/colorPreguntas"
+            android:id="@+id/btn20"/>
+
+    </GridLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pregunta"
+        android:id="@+id/tvPregunta"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puntaje: "
+        android:id="@+id/tvPuntaje"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A."
+        android:backgroundTint="@color/colorRespuestas"
+        android:id="@+id/btnOcion1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B."
+        android:backgroundTint="@color/colorRespuestas"
+        android:id="@+id/btnOcion2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C."
+        android:backgroundTint="@color/colorRespuestas"
+        android:id="@+id/btnOcion3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D."
+        android:backgroundTint="@color/colorRespuestas"
+        android:id="@+id/btnOcion4"/>
+
+    <Button
+        android:id="@+id/btnTerminarJuego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminar juego"
+        android:visibility="invisible"
+        android:enabled="false"/>
+
+
+</LinearLayout>
